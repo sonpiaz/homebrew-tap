@@ -1,6 +1,6 @@
 cask "yap" do
   version "1.0.0"
-  sha256 "PLACEHOLDER_UPDATE_AFTER_FIRST_RELEASE"
+  sha256 "418c277539b334b8dd8c3461ff63c6889637da99ec5f4aeed7bfadb06089a624"
 
   url "https://github.com/sonpiaz/yap/releases/download/v#{version}/Yap-#{version}.zip",
       verified: "github.com/sonpiaz/yap/"

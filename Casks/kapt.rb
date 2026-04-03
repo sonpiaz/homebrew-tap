@@ -1,6 +1,6 @@
 cask "kapt" do
   version "1.0.0"
-  sha256 "PLACEHOLDER_UPDATE_AFTER_FIRST_RELEASE"
+  sha256 "9c17d44ec705382787df15cabf07195f8afcedc1b4db3ff37a781e4de6dc4da1"
 
   url "https://github.com/sonpiaz/kapt/releases/download/v#{version}/Kapt-#{version}.zip",
       verified: "github.com/sonpiaz/kapt/"
