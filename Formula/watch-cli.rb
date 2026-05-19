@@ -5,11 +5,7 @@ class WatchCli < Formula
   # edits `version` and `sha256` on each release. See
   # https://github.com/sonpiaz/watch-cli/blob/main/docs/homebrew.md
   url "https://github.com/sonpiaz/watch-cli/releases/download/v#{version}/watch-cli.tar.gz"
-  # TODO(bootstrap): sha256 below is a placeholder. The first watch-cli
-  # release workflow run for v0.3.0 produces the real tarball + SHA256
-  # and the auto-bump job updates this line. Until v0.3.0 ships, this
-  # formula will not install cleanly.
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "4be122865e60cd26597e821af3b04d263f7997384c0d39e7e2b262b3ce4c5c27"
   version "0.3.0"
   license "MIT"
 
