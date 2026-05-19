@@ -10,7 +10,13 @@ brew tap sonpiaz/tap
 
 ## Packages
 
-### Casks
+### Formulae (CLI tools)
+
+| Tool | Description | Install |
+|-----|-------------|---------|
+| **watch-cli** | Turn any social video into an architecture diagram or working component | `brew install sonpiaz/tap/watch-cli` |
+
+### Casks (macOS apps)
 
 | App | Description | Install |
 |-----|-------------|---------|
@@ -20,6 +26,7 @@ brew tap sonpiaz/tap
 ### Quick install (no tap needed)
 
 ```bash
+brew install sonpiaz/tap/watch-cli
 brew install --cask sonpiaz/tap/kapt
 brew install --cask sonpiaz/tap/yap
 ```
