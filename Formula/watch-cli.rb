@@ -4,9 +4,9 @@ class WatchCli < Formula
   # url uses v#{version} interpolation so the auto-bump workflow only
   # edits `version` and `sha256` on each release. See
   # https://github.com/sonpiaz/watch-cli/blob/main/docs/homebrew.md
-  version "0.3.1"
+  version "0.3.3"
   url "https://github.com/sonpiaz/watch-cli/releases/download/v#{version}/watch-cli.tar.gz"
-  sha256 "a57891fc82af1dd5e6ae92cf5fe4bde224368a50e7435f3e295d6be5c0d87ecf"
+  sha256 "2cd316a66601f548bc0ea00945648f42222c62056eba193646d9067ff1ac6a31"
   license "MIT"
 
   depends_on "ffmpeg"
